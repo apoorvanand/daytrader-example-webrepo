@@ -51,13 +51,13 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.0</version>
         </dependency>
         
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.0</version>
         </dependency>
 		
 		<!-- Must Precede Third Party Dependencies -->
@@ -309,7 +309,7 @@
                                 <phase>pre-integration-test</phase>
                                 <configuration>
                                     <target>
-                                        <sleep seconds="20" />
+                                        <sleep seconds="20"/>
                                     </target>
                                 </configuration>
                                 <goals>
@@ -428,10 +428,10 @@
           						<APP_VERSION>${project.parent.version}</APP_VERSION>
                                 <APP_ARTIFACTID>${project.parent.artifactId}</APP_ARTIFACTID>
                                 <EXPOSE_PORT>5443</EXPOSE_PORT>
-                                <DATABASE_DRIVER></DATABASE_DRIVER>
-                                <DATABASE_URL></DATABASE_URL>
-                                <DATABASE_USERNAME></DATABASE_USERNAME>
-                                <DATABASE_PASSWORD></DATABASE_PASSWORD>
+                                <DATABASE_DRIVER/>
+                                <DATABASE_URL/>
+                                <DATABASE_USERNAME/>
+                                <DATABASE_PASSWORD/>
 				    		</buildArgs>
 						    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 			    		</configuration>
@@ -504,7 +504,7 @@
                                 <phase>pre-integration-test</phase>
                                 <configuration>
                                     <target>
-                                        <sleep seconds="90" />
+                                        <sleep seconds="90"/>
                                     </target>
                                 </configuration>
                                 <goals>
